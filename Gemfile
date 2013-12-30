@@ -23,6 +23,7 @@ end
 gem 'sass-rails', '~> 4.0.0'
 
 gem 'bootstrap-sass'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -47,7 +48,9 @@ group :doc do
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
+gem 'bcrypt-ruby', '~> 3.1.2'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 # Use unicorn as the app server
 # gem 'unicorn'
